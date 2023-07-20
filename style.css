@@ -1,4 +1,7 @@
-
+*{
+    margin: 0px;
+    padding: 0;
+}
 /* header */
 header{
     width: 1500px;
@@ -111,7 +114,8 @@ header h1{
 
 /* main-2 */
 .main-2{
-    width: 1600px;
+    /* width: 1600px; */
+    width: 100vw;
     height: 600px;
     background:  rgba(255, 66, 165, 0.03);
     align-items: center;
@@ -212,12 +216,13 @@ header h1{
 }
 /* online part end */
 .main-3{
-    width: 1253px;
+    width: 1000px;
     height: 725px;
     justify-content: space-between;
     padding-bottom: 200px;
     display: flex;
     margin-left: 100px;
+    align-items: center;
 }
 
 .main-3-h1{
@@ -241,18 +246,27 @@ header h1{
     line-height: 30px;
     width: 353px;
 }
+.main-3-text{
+    padding-left: 150px;
+}
 .main-3-img{
-    position: relative; left: 300px;;
-
+    position: relative; 
+    left: 300px;
+}
+.shooter{
+    height: 35rem;
+    width: 25rem;
 }
 .angela{
-    position: relative; top: -250px; left: -145px;
+    height: 17rem;
+    position: absolute; top: 380px; left: -130px;
     
 }
 .main-btn{
     padding-left: 75px;
     width: 1313px;
     height: 187px;
+    /* background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%); */
     padding-bottom: 50px;
 }
 .main-btn-1{
@@ -273,6 +287,11 @@ header h1{
     border-radius: 50px;
     background: #FFF;
     align-items: center;
+    transition-duration: 0.15s;
+} 
+.main-btn button:hover{
+    border: 1px solid #F948B2;
+    color: #F948B2;
 }
 .main-btn img{
     width: 50px;
@@ -285,6 +304,7 @@ footer{
     background: #0B0223;;
     width: 1500px;
     height: 636px;
+    margin: 0;
 }
 .footer{
     display: flex;
